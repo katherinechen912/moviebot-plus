@@ -19,6 +19,10 @@ from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance, ImageOps
 from nltk.corpus import movie_reviews, wordnet
 from nltk.tokenize import word_tokenize
+import nltk
+nltk.data.path.append("./nltk_data")
+
+
 
 # First-time setup: Uncomment and run once if needed
 # nltk.download('movie_reviews')
